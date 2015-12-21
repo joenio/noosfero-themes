@@ -1,0 +1,37 @@
+@import url(../base/style.css);
+
+#site-title img {
+  left:-22px;
+  position:absolute;
+  top:-30px;
+}
+#site-title {
+  width: 425px;
+  top: 14px;
+}
+#title-bar {
+  background-color: gray;
+}
+#title-bar h1 {
+  color: white;
+}
+#navigation {
+  background: url('images/background-top.gif') repeat-x 50%;
+  top: 0;
+}
+#navigation-end {
+  background: none;
+}
+#navigation a {
+  color: white;
+  border-left: none;
+}
+#navigation > ul > li {
+  margin-top: 68px;
+}
+#navigation > ul {
+  height: 110px;
+}
+#user a, #user a strong, span.or {
+  color: white;
+}
